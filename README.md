@@ -11,6 +11,9 @@ git config --global user.name 'Xueshi Lu'
 ### 设置邮箱
 git config --global user.email '...@gmail.com'
 
+### 查看git的config
+git config -l
+
 ### 状态
 git status
 
