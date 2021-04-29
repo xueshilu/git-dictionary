@@ -6,10 +6,10 @@
 git init
 
 ### 设置用户名
-git config --global user.name 'Xueshi Lu'
+git config --global user.<span>name</span> 'Xueshi Lu'
 
 ### 设置邮箱
-git config --global user.email '...@gmail.com'
+git config --global user.email '...@<span>gmail</span>.com'
 
 ### 查看git的config
 git config -l
@@ -48,8 +48,8 @@ git merge sample
 ### 列出已经存在的远程分支
 git remote
 
-### 添加远程仓库
-git remote add origin git@github.com:xueshilu/myapps.git
+### 链接远程仓库
+git remote add origin git@<span>github</span>.com:xueshilu/repository.git
 
 ### push到远程仓库
 git push -u origin master
