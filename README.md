@@ -51,8 +51,9 @@ git remote
 ### 链接远程仓库
 git remote add origin git@<span>github</span>.com:xueshilu/repository.git
 
-### push到远程仓库
+### push到远程仓库 (将本地分支master推送到远程分支branchtest) (-u 可以建立追踪关系)
 git push -u origin master
+git push origin master:brachtest
 
 ### clone到本地
 git clone address
