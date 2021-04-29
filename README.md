@@ -44,7 +44,8 @@ git merge sample
 创建 .gitignore
 
 ## git - github
-列出已经存在的远程分支
+
+### 列出已经存在的远程分支
 git remote
 
 ### 添加远程仓库
