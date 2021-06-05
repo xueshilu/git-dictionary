@@ -49,7 +49,10 @@ git merge sample
 ## git - github
 
 ### 列出已经存在的远程分支
-git remote
+git remote -v
+
+### 替换push fetch url
+git remote set-url --push/fetch origin git@github.com:xueshilu/CS6.1A.git
 
 ### 链接远程仓库
 git remote add origin git@<span>github</span>.com:xueshilu/repository.git
