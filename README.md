@@ -43,6 +43,9 @@ git checkout sample
 ### 合并分支
 git merge sample
 
+### 查看log
+git log --all --graph --decorate --oneline
+
 ### 忽视文件
 创建 .gitignore
 
